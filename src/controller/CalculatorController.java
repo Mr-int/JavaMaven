@@ -56,4 +56,4 @@ public class CalculatorController {
         double result = calculatorService.divide(num1, num2);
         return String.format("%d / %d = %.1f", num1, num2, result);
     }
-} 
+}
